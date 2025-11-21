@@ -8,7 +8,7 @@ const SplashScreen: FC = () => {
     prepareNavigation();
     setTimeout(() => {
       resetAndNavigate('OnBoardingScreen');
-    }, 3000);
+    }, 1000);
   }, []);
 
   return (

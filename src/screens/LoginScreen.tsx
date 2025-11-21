@@ -78,6 +78,7 @@ const LoginScreen: React.FC = () => {
           onChangeText={text => handleOnChange(text, 'email')}
           onFocus={() => handleError(null, 'email')}
           placeholder="Email"
+          testID="email"
           error={errors.email}
         />
         <Input
@@ -85,6 +86,7 @@ const LoginScreen: React.FC = () => {
           onChangeText={text => handleOnChange(text, 'password')}
           onFocus={() => handleError(null, 'password')}
           placeholder="Password"
+          testID="password"
           error={errors.password}
           secureTextEntry
         />

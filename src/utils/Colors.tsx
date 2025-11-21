@@ -12,7 +12,7 @@ export const Colors = {
   shadowColor: '#171717',
   white: '#fff',
   borderColor: '#444',
-  card: '#292929',
+  card: '#8ceed3ff',
   errorColor: '#FF474D',
   labelColor: '#4B4A4F',
   borderLight: '#C5C5C5',
