@@ -11,14 +11,14 @@ import HomeScreen from '../screens/HomeScreen';
 const Stack = createNativeStackNavigator();
 
 const Navigation = () => {
-
   return (
     <NavigationContainer ref={navigationRef}>
       <Stack.Navigator
         initialRouteName="SplashScreen"
         screenOptions={() => ({
           headerShown: false,
-        })}>
+        })}
+      >
         <Stack.Screen component={SplashScreen} name="SplashScreen" />
         <Stack.Screen component={OnBoardingScreen} name="OnBoardingScreen" />
         <Stack.Screen component={LoginScreen} name="LoginScreen" />
